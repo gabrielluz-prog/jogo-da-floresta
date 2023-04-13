@@ -2,24 +2,3 @@ body{
     background: url("../content/indexImages/floresta.jpg") center no-repeat fixed;
     background-size: cover;
 }
-h1{
-    font-size: 70px;
-}
-nav{
-    margin: 240px  auto 40px;
-}
-.botao, .botao_jogar{
-    width: 200px;
-    height: 35px;
-    font-size:22px;
-    font-family: "Rye", Times, serif;
-    border: none;
-    margin: 5px  0 0 -40px;
-    background: #0C1A08;
-    color: #66341A;
-}
-button:hover{
-    height: 39px;
-    cursor: pointer;
-    background-color: #336624;
-}
