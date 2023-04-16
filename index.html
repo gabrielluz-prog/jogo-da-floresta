@@ -13,7 +13,10 @@
 <body>
   <main>  
     <header>
-	    <img src="./content/icons/logo.svg" alt="Um texto verde escrito 'A floresta'" id="title">
+	    <picture>
+        <source media="(max-width: 200px)" srcset="./content/icons/logo-centered.svg">
+        <img src="./content/icons/logo.svg" alt="Um texto verde escrito 'A floresta'" id="title">
+      </picture>
     </header>
     <section id="links">
       <a href="#" class="link" onclick="playSound()">Jogar</a>
